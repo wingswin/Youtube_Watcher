@@ -22,7 +22,7 @@ The system is designed with a decentralized, decoupled architecture consisting o
 
 
 
-### 2.1 System Architecture & Workflow
+### 2 System Architecture & Workflow
 I created my own skill and it will work everyday morning with my cron schedule in openclaw. (But since i dont have put it on a online server, so sometimes the file is not update when my computer not open)
 1. **Ingestion Engine (`watch_channels.py`):** A custom Python scheduler parsing a configuration matrix (`Channels.json`). It actively queries YouTube RSS/API endpoints to check for fresh video uploads, strictly capping results to avoid API throttling. (So put the youtube channel you want in Channels.json, and it will search that channel each time soon)
 2. **Context Enrichment (Transcription):** Consider we used the SKILL from the openclawhub, youtube-watcher skill, for automation the process of take transcript from youtube link.
@@ -30,8 +30,3 @@ I created my own skill and it will work everyday morning with my cron schedule i
 4. **Agentic Layer (Prompt Execution):** After extracted a video transcript, it will put on the LLM model to summarize all content, sorry that i just a simple prompt to control the summarize output, so we can modify the prompt in my maincode --> watch_channels.py --> we can modify the prompt in function (summarize_with_deepseek()), we also can take it out if necessary
 5. **Static Generator & CI/CD Push:** The aggregated insights are compiled into a responsive frontend table. The script utilizes native Python `subprocess` abstraction to trigger secure Git workflows, performing conditional pushes to a public deployment branch only when data mutations are caught.
 
-### 2.2 Defensive & Secure Engineering (Key Highlights)
-* **Secret Scanning & Push Protection:** API configurations and structural tokens are completely externalized into a sandboxed `workspace/.env`. The root `.gitignore` implements strict whitelist overrides (`/*`, `!/workspace/`) while asserting terminal boundary checks (`/workspace/.env`) to completely eliminate credential leaking risks on public repositories.
-* **Idempotent Git Flow:** The integration engine queries `git status --porcelain` to intercept redundant commits, saving remote CI run-time by terminating pipeline operations gracefully if the workspace remains clean.
-
----
