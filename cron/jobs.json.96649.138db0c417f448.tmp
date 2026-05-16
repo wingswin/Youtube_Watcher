@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "58c1fac6-ff39-4be5-b062-5e620dd32d12",
+      "agentId": "main",
+      "name": "Work Reminder",
+      "enabled": true,
+      "createdAtMs": 1770705973050,
+      "updatedAtMs": 1771506395287,
+      "schedule": {
+        "everyMs": 3600000,
+        "kind": "every",
+        "anchorMs": 1770707178948
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "message": "Check TASKS.md. Remind the user about upcoming deadlines (especially 2/12) and check their daily progress (at least 3 tasks/day). Send the reminder now. Include a briefcase emoji 💼 in the reminder.",
+        "kind": "agentTurn"
+      },
+      "delivery": {
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1771509978948,
+        "lastRunAtMs": 1771506378949,
+        "lastStatus": "ok",
+        "lastDurationMs": 16338
+      }
+    },
+    {
+      "id": "f10bfd3d-1e6e-498d-9c61-3d7e1b9bfee0",
+      "agentId": "main",
+      "name": "Work Reminder",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1771085620854,
+      "updatedAtMs": 1771509686884,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-02-14T16:13:00.000Z"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "text": "💼 Check TASKS.md. Remind the user about upcoming deadlines (especially 2/12) and check their daily progress (at least 3 tasks/day).",
+        "kind": "systemEvent"
+      },
+      "state": {
+        "nextRunAtMs": 1771085580000,
+        "lastRunAtMs": 1771509686884,
+        "lastStatus": "skipped",
+        "lastDurationMs": 0,
+        "lastError": "empty-heartbeat-file"
+      }
+    },
+    {
+      "id": "6b3488cd-ed66-4f90-b585-022b040f48f8",
+      "agentId": "main",
+      "name": "Work Reminder",
+      "enabled": true,
+      "createdAtMs": 1771474244746,
+      "updatedAtMs": 1771506662999,
+      "schedule": {
+        "everyMs": 10800000,
+        "kind": "every",
+        "anchorMs": 1771474244746
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "model": "google/gemini-2.5-flash-lite",
+        "message": "Please check TASKS.md. Remind the user about upcoming deadlines (especially 2/12) and check their daily progress (at least 3 tasks/day). Include a briefcase emoji 💼 in the reminder.",
+        "kind": "agentTurn"
+      },
+      "delivery": {
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1771517444746,
+        "lastRunAtMs": 1771506644752,
+        "lastStatus": "error",
+        "lastDurationMs": 18247,
+        "lastError": "Error: No active WhatsApp Web listener (account: default). Start the gateway, then link WhatsApp with: openclaw channels login --channel whatsapp --account default."
+      }
+    }
+  ]
+}

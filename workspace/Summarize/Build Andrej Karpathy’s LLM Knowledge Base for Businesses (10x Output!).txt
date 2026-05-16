@@ -1,0 +1,15 @@
+### Comparative Landscape of LLM Themes
+
+| **Speaker** | **Primary Topics** | **Unique Insights** |
+|-------------|-------------------|----------------------|
+| Dream Labs AI (narrator) | RAG (Retrieval-Augmented Generation), Agentic Workflows, Fine-tuning, AI Memory, Business-Specific AI Systems | 1. Andrej Karpathy's "second brain" system uses Obsidian as a structured knowledge base to filter LLM outputs through business-specific context, goals, and rules, creating a self-learning loop that compounds knowledge over time.<br>2. The system can identify "knowledge gaps" in a business by analyzing its own data and suggesting missing areas, acting like a board of directors or mentor. |
+
+---
+
+### Channel Context
+
+**Relation to Broader LLM Themes:**  
+This video focuses on practical, business-oriented applications of LLMs, specifically addressing the common problem of generic AI outputs ("AI slop") by advocating for a structured, personalized knowledge base (RAG-like system). It emphasizes moving from generalist to specialist AI usage, incorporating memory, context, and automation to align with business goals. The concept mirrors advanced RAG and agentic workflows but simplifies them for non-technical users.
+
+**Perspective vs. Other AI Channels:**  
+Dream Labs AI is **developer- and business-practitioner-focused**, similar to channels like *Matt Wolfe* or *AI Explained*, but with a stronger emphasis on actionable, step-by-step implementation for entrepreneurs. Unlike academic channels (e.g., *Two Minute Papers*) that explore cutting-edge research, or highly technical channels (e.g., *Sentdex*) that dive into code, Dream Labs AI bridges the gap by offering a "no-code" or low-code approach to building custom AI systems. The channel’s perspective is pragmatic, prioritizing results and time savings over theoretical novelty.

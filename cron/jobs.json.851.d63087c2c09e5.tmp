@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "58c1fac6-ff39-4be5-b062-5e620dd32d12",
+      "agentId": "main",
+      "name": "Work Reminder",
+      "enabled": true,
+      "createdAtMs": 1770705973050,
+      "updatedAtMs": 1771646800181,
+      "schedule": {
+        "everyMs": 3600000,
+        "kind": "every",
+        "anchorMs": 1770707178948
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "message": "Check TASKS.md. Remind the user about upcoming deadlines (especially 2/12) and check their daily progress (at least 3 tasks/day). Send the reminder now. Include a briefcase emoji 💼 in the reminder.",
+        "kind": "agentTurn"
+      },
+      "delivery": {
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1771650378948,
+        "lastRunAtMs": 1771646778950,
+        "lastStatus": "ok",
+        "lastDurationMs": 21231
+      }
+    },
+    {
+      "id": "f10bfd3d-1e6e-498d-9c61-3d7e1b9bfee0",
+      "agentId": "main",
+      "name": "Work Reminder",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1771085620854,
+      "updatedAtMs": 1771648688277,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-02-14T16:13:00.000Z"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "text": "💼 Check TASKS.md. Remind the user about upcoming deadlines (especially 2/12) and check their daily progress (at least 3 tasks/day).",
+        "kind": "systemEvent"
+      },
+      "state": {
+        "nextRunAtMs": 1771085580000,
+        "lastRunAtMs": 1771648688277,
+        "lastStatus": "skipped",
+        "lastDurationMs": 0,
+        "lastError": "empty-heartbeat-file"
+      }
+    },
+    {
+      "id": "6b3488cd-ed66-4f90-b585-022b040f48f8",
+      "agentId": "main",
+      "name": "Work Reminder",
+      "enabled": true,
+      "createdAtMs": 1771474244746,
+      "updatedAtMs": 1771564437952,
+      "schedule": {
+        "tz": "Asia/Hong_Kong",
+        "expr": "0 9 * * *",
+        "kind": "cron"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "model": "google/gemini-2.5-flash-lite",
+        "message": "Please check TASKS.md. Remind me about upcoming deadlines (especially 2/12) and my daily progress (at least 3 tasks/day). Include a briefcase emoji 💼.",
+        "kind": "agentTurn",
+        "thinking": "low"
+      },
+      "delivery": {
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1771722000000,
+        "lastRunAtMs": 1771564355427,
+        "lastStatus": "ok",
+        "lastDurationMs": 72276
+      }
+    },
+    {
+      "id": "1824598d-2f50-4182-8af3-0a377f277986",
+      "agentId": "main",
+      "name": "Work Reminder",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1771585603256,
+      "updatedAtMs": 1771648688277,
+      "schedule": {
+        "at": "2026-02-20T11:06:00.000Z",
+        "kind": "at"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "text": "💼 Check TASKS.md. Remind the user about upcoming deadlines (especially 2/12) and check their daily progress (at least 3 tasks/day).",
+        "kind": "systemEvent"
+      },
+      "state": {
+        "nextRunAtMs": 1771585560000,
+        "lastRunAtMs": 1771648688277,
+        "lastStatus": "skipped",
+        "lastDurationMs": 0,
+        "lastError": "empty-heartbeat-file"
+      }
+    }
+  ]
+}

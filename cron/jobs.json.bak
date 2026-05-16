@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "ffd5946e-f856-4559-8b98-74b269ee7a0e",
+      "name": "Youtube_Watcher_Reminder",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1778817977868,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 12 * * *"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Please check the specified list of YouTube channels and find new videos from the past 6 hours.Transcribe the new videos, extract LLM-related topics, and format the results as JSON to store in the database."
+      },
+      "state": {}
+    },
+    {
+      "id": "f8d0d643-c4a2-4830-86ee-05afc5f9f91b",
+      "name": "YT Watcher",
+      "enabled": true,
+      "createdAtMs": 1778859742923,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * *",
+        "tz": "Asia/Hong_Kong"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the YouTube channel watcher script and summarize new videos.\n\n1. Run: python3 /Users/wingswin/.openclaw/workspace/scripts/watch_channels.py\n2. Read the output carefully.\n3. If the script found new videos with transcripts, summarize each one.\n4. If no new videos, report all caught up.\n5. Check record.md was updated."
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {}
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "f8d0d643-c4a2-4830-86ee-05afc5f9f91b",
+      "name": "YT Watcher",
+      "enabled": true,
+      "createdAtMs": 1778859742923,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * *",
+        "tz": "Asia/Hong_Kong"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Read and follow: ~/workspace/myskill/YT_Watcher/SKILL.md"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {}
+    }
+  ]
+}

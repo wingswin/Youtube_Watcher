@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "58c1fac6-ff39-4be5-b062-5e620dd32d12",
+      "agentId": "main",
+      "name": "Work Reminder",
+      "enabled": false,
+      "createdAtMs": 1770705973050,
+      "updatedAtMs": 1778675638777,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-03-06T10:06:00.000Z"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "💼 Reminder: Please check TASKS.md. Upcoming deadlines include 2/12. Ensure at least 3 tasks are completed daily."
+      },
+      "state": {
+        "lastRunAtMs": 1778675638140,
+        "lastStatus": "ok",
+        "lastDurationMs": 637
+      }
+    },
+    {
+      "id": "f10bfd3d-1e6e-498d-9c61-3d7e1b9bfee0",
+      "agentId": "main",
+      "name": "Work Reminder",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1771085620854,
+      "updatedAtMs": 1778743075607,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-02-14T16:13:00.000Z"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "text": "💼 Check TASKS.md. Remind the user about upcoming deadlines (especially 2/12) and check their daily progress (at least 3 tasks/day).",
+        "kind": "systemEvent"
+      },
+      "state": {
+        "nextRunAtMs": 1771085580000,
+        "lastRunAtMs": 1778743075606,
+        "lastStatus": "skipped",
+        "lastDurationMs": 1,
+        "lastError": "empty-heartbeat-file"
+      }
+    },
+    {
+      "id": "6b3488cd-ed66-4f90-b585-022b040f48f8",
+      "agentId": "main",
+      "name": "Work Reminder",
+      "enabled": true,
+      "createdAtMs": 1771474244746,
+      "updatedAtMs": 1778720585920,
+      "schedule": {
+        "tz": "Asia/Hong_Kong",
+        "expr": "0 9 * * *",
+        "kind": "cron"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "model": "google/gemini-2.5-flash-lite",
+        "message": "Please check TASKS.md. Remind me about upcoming deadlines (especially 2/12) and my daily progress (at least 3 tasks/day). Include a briefcase emoji 💼.",
+        "kind": "agentTurn",
+        "thinking": "low"
+      },
+      "delivery": {
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1778806800000,
+        "lastRunAtMs": 1778720585788,
+        "lastStatus": "error",
+        "lastDurationMs": 132,
+        "lastError": "model not allowed: google/gemini-2.5-flash-lite"
+      }
+    },
+    {
+      "id": "1824598d-2f50-4182-8af3-0a377f277986",
+      "agentId": "main",
+      "name": "Work Reminder",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1771585603256,
+      "updatedAtMs": 1778743075607,
+      "schedule": {
+        "at": "2026-02-20T11:06:00.000Z",
+        "kind": "at"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "text": "💼 Check TASKS.md. Remind the user about upcoming deadlines (especially 2/12) and check their daily progress (at least 3 tasks/day).",
+        "kind": "systemEvent"
+      },
+      "state": {
+        "nextRunAtMs": 1771585560000,
+        "lastRunAtMs": 1778743075607,
+        "lastStatus": "skipped",
+        "lastDurationMs": 0,
+        "lastError": "empty-heartbeat-file"
+      }
+    },
+    {
+      "id": "1ec83933-51d7-47ca-b029-ba163e772334",
+      "agentId": "main",
+      "name": "Work Reminder",
+      "enabled": true,
+      "createdAtMs": 1771729589909,
+      "updatedAtMs": 1778720585920,
+      "schedule": {
+        "tz": "Asia/Hong_Kong",
+        "expr": "0 */3 * * *",
+        "kind": "cron"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "text": "💼 Work Reminder: Please check TASKS.md for your daily progress. Have you completed at least 3 tasks today? Keep an eye on upcoming deadlines.",
+        "kind": "systemEvent"
+      },
+      "state": {
+        "nextRunAtMs": 1778752800000,
+        "lastRunAtMs": 1778720585920,
+        "lastStatus": "skipped",
+        "lastDurationMs": 0,
+        "lastError": "empty-heartbeat-file"
+      }
+    },
+    {
+      "id": "8cbbf346-9065-46d1-97ec-2c5d62116bbd",
+      "agentId": "main",
+      "name": "Work Reminder",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1771866391196,
+      "updatedAtMs": 1778743075607,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-02-23T17:06:00.000Z"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "text": "💼 Check TASKS.md. Remind about upcoming deadlines (especially 2/12) and check daily progress (at least 3 tasks/day).",
+        "kind": "systemEvent"
+      },
+      "state": {
+        "nextRunAtMs": 1771866360000,
+        "lastRunAtMs": 1778743075607,
+        "lastStatus": "skipped",
+        "lastDurationMs": 0,
+        "lastError": "empty-heartbeat-file"
+      }
+    },
+    {
+      "id": "4e9ca8c0-46a6-43e7-b4ce-624a95d84bd2",
+      "agentId": "main",
+      "name": "Work Reminder",
+      "enabled": true,
+      "createdAtMs": 1772054230961,
+      "updatedAtMs": 1778739430965,
+      "schedule": {
+        "everyMs": 10800000,
+        "kind": "every",
+        "anchorMs": 1772054230961
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Hi JimmyBoss! 💼 Time for your work check-in. Please review your TASKS.md file. Remember upcoming deadlines, especially the one on February 12th. Aim to complete at least 3 tasks today to stay on track!"
+      },
+      "state": {
+        "nextRunAtMs": 1778750230961,
+        "lastRunAtMs": 1778739430965,
+        "lastStatus": "skipped",
+        "lastDurationMs": 0,
+        "lastError": "empty-heartbeat-file"
+      }
+    },
+    {
+      "id": "ed177ec1-b031-4154-a206-a51536fed0a5",
+      "agentId": "main",
+      "name": "Work Reminder",
+      "enabled": true,
+      "createdAtMs": 1772435192140,
+      "updatedAtMs": 1778720585921,
+      "schedule": {
+        "expr": "0 9 * * *",
+        "kind": "cron",
+        "tz": "Asia/Hong_Kong"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "text": "💼 Reminder: Check TASKS.md. Review upcoming deadlines and ensure at least 3 tasks are completed today.",
+        "kind": "systemEvent"
+      },
+      "state": {
+        "nextRunAtMs": 1778806800000,
+        "lastRunAtMs": 1778720585920,
+        "lastStatus": "skipped",
+        "lastDurationMs": 1,
+        "lastError": "empty-heartbeat-file"
+      }
+    },
+    {
+      "id": "588f29ad-3279-4620-b1b1-2889d1440138",
+      "agentId": "main",
+      "name": "Work Reminder",
+      "enabled": true,
+      "createdAtMs": 1772478401756,
+      "updatedAtMs": 1778742401759,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 10800000,
+        "anchorMs": 1772478401756
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "💼 Reminder: Please check TASKS.md. Upcoming deadlines include February 12th. Ensure you've completed at least 3 tasks today."
+      },
+      "state": {
+        "nextRunAtMs": 1778753201756,
+        "lastRunAtMs": 1778742401758,
+        "lastStatus": "skipped",
+        "lastDurationMs": 1,
+        "lastError": "empty-heartbeat-file"
+      }
+    },
+    {
+      "id": "5d4aac44-ea1e-4c70-9b8a-4f1e2139a164",
+      "agentId": "main",
+      "name": "Work Reminder",
+      "enabled": true,
+      "createdAtMs": 1772546790446,
+      "updatedAtMs": 1778720585921,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 */3 * * *",
+        "tz": "Asia/Hong_Kong"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "text": "💼 Reminder: Please check TASKS.md. Deadlines: The deadline for 2/12 has passed. Please review your current tasks and ensure you are completing at least 3 tasks per day.",
+        "kind": "systemEvent"
+      },
+      "state": {
+        "nextRunAtMs": 1778752800000,
+        "lastRunAtMs": 1778720585921,
+        "lastStatus": "skipped",
+        "lastDurationMs": 0,
+        "lastError": "empty-heartbeat-file"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+### Part 1: Comparative Landscape Table
+
+| **Speaker** | **Primary Topics** | **Unique Insights** |
+|-------------|-------------------|----------------------|
+| Dream Labs AI (narrator) | AI Workflows, Business Automation, LLM Integration, Data-Driven AI, Prompt Engineering | 1. Alex Hormozi views businesses as workflow-based rather than role-based, with AI handling heavy lifting and humans supervising. 2. He uses a structured "AI assets" folder system (business context, data, prompts) to maximize LLM output relevance. |
+
+### Part 2: Channel Context
+
+**Content Relation to Broader LLM Themes:**
+This video focuses on practical, business-oriented LLM applications, emphasizing how to structure data and prompts to create reusable AI workflows. It aligns with the broader trend of moving from generic LLM usage to customized, context-rich implementations that leverage proprietary business data. The emphasis on "data-enabled business" before "AI-enabled business" reflects a key theme in enterprise AI adoption.
+
+**Channel Perspective Comparison:**
+Dream Labs AI is a developer-focused channel that bridges the gap between technical AI capabilities and business implementation. Unlike academic channels that explore theoretical LLM architectures or research papers, this channel provides actionable, step-by-step guides for integrating AI into real-world business operations. It is more practical and hands-on compared to channels like "Two Minute Papers" (academic-focused) or "AI Explained" (news/analysis-focused), positioning itself as a resource for entrepreneurs and business operators seeking immediate AI deployment strategies.

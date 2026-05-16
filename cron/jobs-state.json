@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "jobs": {
+    "f8d0d643-c4a2-4830-86ee-05afc5f9f91b": {
+      "updatedAtMs": 1778901018282,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 10 * * *\",\"tz\":\"Asia/Hong_Kong\"}}",
+      "state": {
+        "nextRunAtMs": 1778983200000,
+        "lastRunAtMs": 1778897324274,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 3694008,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "consecutiveSkipped": 0,
+        "lastError": "cron: job execution timed out (last phase: model-call-started)",
+        "lastDiagnostics": {
+          "summary": "cron: job execution timed out (last phase: model-call-started)",
+          "entries": [
+            {
+              "ts": 1778901018282,
+              "source": "cron-setup",
+              "severity": "error",
+              "message": "cron: job execution timed out (last phase: model-call-started)"
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "cron: job execution timed out (last phase: model-call-started)",
+        "lastErrorReason": "timeout"
+      }
+    }
+  }
+}

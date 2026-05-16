@@ -1,0 +1,14 @@
+{
+  "channels": [
+    {
+      "name": "KodeKloud",
+      "url": "https://www.youtube.com/@KodeKloud",
+      "enabled": false
+    },
+    {
+      "name": "Dream Labs AI",
+      "url": "https://www.youtube.com/@DreamLabs_AI",
+      "enabled": true
+    }
+  ]
+}
