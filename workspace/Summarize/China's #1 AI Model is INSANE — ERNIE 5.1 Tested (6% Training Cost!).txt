@@ -1,0 +1,13 @@
+### Part 1: Comparative Landscape Table
+
+| **Speaker** | **Primary Topics** | **Unique Insights** |
+|-------------|--------------------|----------------------|
+| Prompt Engineer (YouTuber) | LLM benchmarking (Arena), Model architecture (Elastic pre-training, MoE), Fine-tuning (multi-stage RL pipeline), Agentic workflows, Creative writing, Code generation | 1. Ernie 5.1 achieves 6% pre-training cost of comparable models via elastic depth/width/sparsity. 2. Multi-stage RL pipeline uses domain expert parallel training (code, reasoning, agent) and multi-teacher policy distillation. |
+
+### Part 2: Channel Context
+
+**Relation to Broader LLM Themes:**  
+This video covers cutting-edge LLM efficiency innovations (elastic pre-training, cost reduction) and practical agentic capabilities (tool use, code generation, creative writing). It aligns with industry trends toward smaller, cheaper models (e.g., DeepSeek V4, Gemini 3.1 Pro) and multi-stage training pipelines.
+
+**Channel Perspective vs. Other AI Channels:**  
+The "Prompt Engineer" channel is **developer- and practitioner-focused**, emphasizing hands-on testing (e.g., creating a PPT, Mario game, piano app) and deployment (Hostinger VPS). Unlike academic channels (e.g., Two Minute Papers) that analyze theory, or news channels (e.g., AI Explained) that focus on announcements, this channel prioritizes **real-world usability** and workflow integration, often comparing models like Ernie 5.1 against Claude, GPT, and Gemini for practical tasks.
