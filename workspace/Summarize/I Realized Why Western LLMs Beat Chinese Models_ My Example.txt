@@ -1,0 +1,13 @@
+## I Realized Why Western LLMs Beat Chinese Models — AI Coding Daily
+
+**Topic:** Deep comparison of how Western vs Chinese LLMs handle a nuanced Laravel validation task requiring careful documentation analysis.
+
+**Key Points:**
+- **The task:** Implement a validation rule using an unfamiliar Laravel package. The "trap" was avoiding N+1 query problems — requiring reading vendor documentation carefully.
+- **11 models × 5 prompt runs:** Only Opus 4.7 and GPT 5.5 achieved 0 failures across all 5 attempts.
+- **Why Western models win on nuance:** GPT 5.5 correctly extracted the `HasFluentRules` trait from docs. Mimo 2.5 Pro read the same docs but implemented the wrong approach — didn't actually prevent N+1 queries despite claiming success.
+- **MiniMax M2.7** failed worst — mixed up function parameters, didn't analyze documentation properly. Fast but shallow.
+- **Chinese model observation:** "They hurry too much" — don't spend enough time analyzing documentation despite accessing the same sources.
+- **Leaderboard (May 2026):** Opus 4.7 (high) ≈ GPT 5.5 (medium) at top. No Chinese model made the top 3 consistently.
+- **Cost:** GPT 5.5 ~$0.13/prompt, MiniMax ~$0.02 — you get what you pay for.
+- **Non-determinism confirmed:** Even the worst models succeeded once out of 5 tries.

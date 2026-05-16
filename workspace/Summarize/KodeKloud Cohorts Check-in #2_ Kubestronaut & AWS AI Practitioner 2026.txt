@@ -1,0 +1,13 @@
+## KodeKloud Cohorts Check-in #2 — KodeKloud
+
+**Topic:** Monthly community check-in covering cohort progress, certifications, upcoming courses, and Kubernetes 1.35 deep dive.
+
+**Key Points:**
+- **Certification celebrations:** Multiple new Kubestronauts and CKAs/CKADs/CKS completions across the community. One member hit 15/15 certifications for Golden Kubestronaut.
+- **KubeCon EU (Amsterdam, March):** KodeKloud presenting 3 sessions — production roadmap with ArgoCD/Crossplane, "How Kubernetes Actually Ships" (SIGs/tags/KEPs), and AI on Kubernetes with Argo/Kubeflow.
+- **New courses:** Google ADK, CoreDNS fundamentals, Crossplane, AI agents with Cloud Agent SDK, Rancher, AWS DevOps Professional, Data Structures & Algorithms.
+- **Cohort 5 launched:** ~800 people joined the January Kubestronaut cohort. 139 already certified.
+- **Kubernetes 1.35 deep dive (60 enhancements):**
+  - **Gang Scheduling (alpha, disabled by default):** New workload API ensuring all pods in a group are scheduled or none — solves GPU deadlock where partial scheduling burns resources with no progress. Six years from alpha to GA.
+  - **AI/ML focus:** Distributed training jobs no longer lock up cluster resources with partially-scheduled pods.
+  - Applicable beyond GPU — any resource contention scenario (storage, networking).

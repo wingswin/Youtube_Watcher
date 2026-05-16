@@ -1,0 +1,11 @@
+## 100 Days of MLOps Challenge is LIVE [Free Program] — KodeKloud
+
+**Topic:** Launch announcement of the free 100 Days of MLOps challenge by KodeKloud.
+
+**Key Points:**
+- Follows the successful 100 Days of DevOps (Aug 2025) and 100 Days of Cloud (Dec 2025) — 44,000+ engineers from 104 countries participated.
+- MLOps market projected to grow ~37% YoY as companies struggle to operationalize AI at scale.
+- **Structure:** 100 real tasks across 12 MLOps domains, 3 skill levels, 1 end-to-end capstone project.
+- **Tools covered:** DVC (data versioning), MLflow (experiment tracking), FastAPI/BentoML (model serving), Evidently (drift detection), CI/CD pipelines, Argo + Prefect on Kubernetes.
+- **No slides/lectures** — every task runs in a live real-world environment with automated validation.
+- **100% free** — no setup, no cloud bills, everything provisioned.

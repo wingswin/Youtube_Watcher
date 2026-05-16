@@ -1,0 +1,12 @@
+## 6 Chinese LLMs: Coding Test on Laravel Task — AI Coding Daily
+
+**Topic:** Benchmarking 6 Chinese LLMs (Kimi, Mimo, Qwen, DeepSeek, GLM, MiniMax) on a Filament PHP admin panel task.
+
+**Key Points:**
+- **Winner:** Kimi K2.6 — 3 attempts, 0 test failures. Mimo 2.5 Pro close second (1 failure).
+- DeepSeek V4 Pro had multiple cascading failures — one fundamental code issue broke 9 tests.
+- MiniMax was fastest (38-49s avg) but also most error-prone — not recommended.
+- **Speed ranking:** MiniMax ≫ Mimo > Qwen > others (200-300s typical).
+- Western models (Opus, GPT 5.5) achieved 0 failures. Sonnet and Gemini had isolated mistakes.
+- **Key finding:** Non-deterministic behavior — same model + same prompt can give different results. Multiple attempts matter.
+- Premium extended video covers a second test (Laravel API) where Kimi and Mimo also top Chinese rankings.

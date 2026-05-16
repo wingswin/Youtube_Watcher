@@ -1,0 +1,10 @@
+## On the latest episode of Unsupervised Learning: Jonathan Frankle — Unsupervised Learning
+
+**Topic:** Practical AI adoption advice — start small, test rigorously, and work your way up.
+
+**Key Points:**
+- **Start small:** Spend $0.20 on OpenAI or Llama to litmus-test if AI works for your use case.
+- **Be a scientist:** AI predictability is poor — run experiments with the best model you can access.
+- **Don't start with RAG:** Manually pull relevant documents into context first. Only add RAG infrastructure when you've validated there's a real need.
+- **Fine-tuning is a later step:** If you're getting value, fine-tuning bakes knowledge into the model but has higher upfront cost.
+- **Key insight:** We lack good predictability for whether AI will excel at a given use case. The only way to know is to try.

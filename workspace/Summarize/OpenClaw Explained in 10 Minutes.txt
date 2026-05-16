@@ -1,0 +1,16 @@
+## OpenClaw Explained in 10 Minutes — KodeKloud
+
+**Topic:** Deep dive into what OpenClaw is, how it works, and its cultural/enterprise impact.
+
+**Key Points:**
+- **What it is:** An LLM-powered AI agent that runs on your machine with access to email, calendar, browser, messaging, and files.
+- **Key differentiator:** Self-hosted autonomy. Unlike ChatGPT/Gemini (cloud services outside your domain), OpenClaw lives on your machine with its own context and agency.
+- **Heartbeat system:** Checks in every 30 minutes against `HEARTBEAT.md` — gives the agent periodic awareness without being always-on.
+- **Memory system:** Stores info in markdown files (`MEMORY.md` + daily logs) with SQLite-based semantic search (RAG-like). Knowledge is stored as plain text, determined by the agent at runtime, not hardcoded rules.
+- **Skills ecosystem:** Community shares domain-specific best practices as skills — a growing knowledge-sharing ecosystem.
+- **Enterprise impact:** Forces companies to document previously-unspoken internal processes. "Like going on a diet — you start tracking habits you ignored before."
+- **Limitations:**
+  - **Prompt injection risk:** Malicious text from websites/files can poison agent context.
+  - **Long-running tasks:** Context window drift over hours/days.
+  - **Human judgment boundary:** Knowing when to escalate vs. use agency is still unclear.
+- **Cultural significance:** Taking AI outside the chat form factor into autonomous action — a major moment for AI adoption.

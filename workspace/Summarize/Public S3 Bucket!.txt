@@ -1,0 +1,11 @@
+## Public S3 Bucket! — KodeKloud
+
+**Topic:** AWS S3 security incident response — how to handle a public S3 bucket leak discovered on the job.
+
+**Key Points:**
+- **First step:** Lock the bucket immediately — enable S3 Block Public Access at bucket *and* account level, enable default encryption.
+- **Critical step most engineers miss:** Pull access logs (CloudTrail data events + S3 server access logs) to identify unauthorized access. Check for unknown IPs, repeated downloads, listing activity.
+- **If logging wasn't enabled:** Assume worst case — treat as confirmed breach.
+- **Loop in legal/security** — GDPR may mandate 72-hour notification. Not your call alone.
+- **Root cause fix:** Use AWS Organizations + SCPs to prevent anyone from creating public buckets. Add Config rules to flag unencrypted buckets.
+- **Interview insight:** Don't just fix the door — think about the data already exposed.
