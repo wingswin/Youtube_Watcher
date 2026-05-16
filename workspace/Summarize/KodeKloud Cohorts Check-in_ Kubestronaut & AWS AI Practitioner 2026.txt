@@ -1,0 +1,14 @@
+### 1. Comparative Landscape Table
+
+| **Speaker** | **Primary Topics** | **Unique Insights** |
+|-------------|-------------------|----------------------|
+| Mumshhat (Host) | AWS AI Practitioner Certification, Kubernetes Certifications (CKA, CKAD, CKS), Platform Updates (Free Week, New Courses) | - Emphasizes "learn by doing" for retaining information across vast domains.<br>- Highlights the importance of understanding AI/ML fundamentals for operators to build and maintain infrastructure. |
+| Michael Forester (Co-host) | AWS AI Practitioner Exam Details, Bedrock vs. SageMaker, AI Integration in DevOps, Exam Question Types (Multiple Choice, Ordering, Matching) | - Describes Bedrock as the "hosting" service for models and SageMaker as the "building/training" service, clarifying their distinct roles.<br>- Notes that AWS exams include unscored questions to test question validity, which can psychologically throw off test-takers. |
+
+### 2. Channel Context
+
+**Relation to Broader LLM Themes:**  
+This content focuses on the **practical certification and operational aspects** of LLMs and AI within the AWS ecosystem, rather than deep theoretical or research-oriented topics. It covers foundational concepts (e.g., supervised vs. unsupervised learning, RAG, model governance) and how they apply to cloud infrastructure (e.g., using Bedrock for model hosting, SageMaker for training). The discussion ties LLM themes to real-world DevOps and infrastructure engineering, emphasizing the need for operators to understand AI/ML fundamentals to deploy, monitor, and troubleshoot models.
+
+**Channel Perspective vs. Other AI Channels:**  
+KodeKloud is **developer- and practitioner-focused**, contrasting with academic or research-oriented channels (e.g., Two Minute Papers, Yannic Kilcher). The channel prioritizes hands-on learning, certification prep, and operational workflows (e.g., Kubernetes, AWS, CI/CD). Compared to other AI channels, it is less about cutting-edge research or theoretical breakthroughs and more about **applying AI in production environments**, especially for cloud-native and DevOps professionals. The tone is instructional and community-driven, with a strong emphasis on "learning by doing" and staying relevant through certifications.

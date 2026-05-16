@@ -1,0 +1,20 @@
+### Part 1: Comparative Landscape Table
+
+| **Speaker** | **Primary Topics** | **Unique Insights** |
+|-------------|--------------------|----------------------|
+| Mal Manat (Host) | Kubernetes certifications, AI/ML learning paths, Agentic Workflows (Google ADK), Cohort-based learning, DevOps/Cloud 100-day challenges | 1. KodeKloud is launching an AWS AI Practitioner cohort and a course on Google's Agent Development Kit (ADK) for building AI agents. 2. The channel emphasizes structured, community-driven learning (cohorts, leaderboards) over self-paced study. |
+| Pmote Kumar (Guest) | Kubernetes certification journey (CKA, CKS, Golden Kubestronaut), DevOps/Platform Engineering, Multi-cloud (AWS, Azure), AI/ML fundamentals (AWS AI Practitioner) | 1. Failed CKA first time due to time management; recommends grouping certifications (e.g., GitOps, observability) for consistency. 2. Views AI certifications as foundational for understanding LLMs and agents, not just vendor-specific tools. |
+
+### Part 2: Channel Context
+
+**Relation to Broader LLM Themes:**  
+This content focuses on **applied AI/ML infrastructure** rather than theoretical LLM research. Key themes include:
+- **Agentic Workflows**: Google ADK course for building AI agents, aligning with the trend of autonomous LLM-driven systems.
+- **RAG & Fine-tuning**: Not directly covered, but the AWS AI Practitioner cohort introduces foundational AI/ML concepts (e.g., LLMs, parameters) that underpin these techniques.
+- **Cohort-based Learning**: Emphasizes hands-on, community-driven skill-building for deploying AI workloads (e.g., hosting AI agents on Kubernetes).
+
+**Channel Perspective vs. Other AI Channels:**  
+- **Developer-focused**: KodeKloud targets DevOps/cloud engineers, contrasting with academic channels (e.g., Stanford CS224n) that focus on LLM theory.  
+- **Practical vs. Theoretical**: Prioritizes certification prep and real-world deployment (e.g., Kubernetes for AI agents) over model architecture or training.  
+- **Community-driven**: Uses cohorts and leaderboards to motivate learning, unlike channels like "Two Minute Papers" that highlight research breakthroughs.  
+- **Multi-cloud**: Covers AWS, Azure, and Google Cloud AI services, appealing to practitioners needing cross-platform skills.
