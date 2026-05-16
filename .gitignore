@@ -7,3 +7,5 @@
 
 # 3. 保留 .gitignore 檔案本身
 !.gitignore
+
+/workspace/.env
