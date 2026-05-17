@@ -1,0 +1,13 @@
+### Part 1: Summary Table
+
+| **Speaker** | **Primary Topics** | **Unique Insights** |
+|-------------|-------------------|---------------------|
+| Alex (host) | Key-Value Cache Optimization, Sparse Attention, Scaling Laws, Long-Context LLMs | 1. Introduces a dynamic "utility predictor" (MLP) that scores key-value pairs by future usefulness, enabling 3-10x cache compression with minimal performance loss. 2. Demonstrates that baking sparsity into training (vs. post-hoc pruning) preserves scaling laws and avoids severe errors, with only 0.08% validation loss increase at 26% cache density. |
+
+### Part 2: Channel Context
+
+**Relation to Broader LLM Themes:**  
+This content addresses a critical bottleneck in LLM deployment—memory efficiency for long-context tasks. It aligns with the industry-wide push toward more efficient transformer architectures (e.g., sparse attention, hybrid models) and challenges the assumption that full attention is necessary for scaling. The paper’s focus on learned memory policies reflects a shift from static heuristics (e.g., sliding windows) to adaptive, training-integrated solutions.
+
+**Channel Perspective vs. Other AI Channels:**  
+*AI Research Roundup* is a **developer- and practitioner-focused** channel that distills cutting-edge papers into actionable insights. Unlike academic channels (e.g., *Two Minute Papers*), which emphasize theoretical novelty, or industry channels (e.g., *AI Explained*), which focus on product implications, this channel bridges the gap by highlighting architectural trade-offs (e.g., memory vs. speed) and practical benchmarks (e.g., ruler long-context tasks). Its tone is neutral and technical, prioritizing clarity for engineers and researchers over hype or speculation.
