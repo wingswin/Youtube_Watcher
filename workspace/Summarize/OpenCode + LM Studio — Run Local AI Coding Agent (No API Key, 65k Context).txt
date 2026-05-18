@@ -1,0 +1,13 @@
+### Part 1: Summary Table
+
+| **Speaker** | **Primary Topics** | **Unique Insights** |
+|-------------|--------------------|----------------------|
+| Prompt Engineer (host) | Local LLM deployment, OpenCode integration, LM Studio setup, Model selection for hardware constraints | 1. Demonstrates running a 9B parameter Qwen model with 65K context on an 8GB GPU (RTX 4060) by adjusting GPU offload. 2. Emphasizes OpenCode requires >60K context length, making local model selection hardware-dependent. |
+
+### Part 2: Channel Context
+
+**Relation to Broader LLM Themes:**  
+This video addresses the growing trend of **local, private LLM deployment** as an alternative to cloud-based APIs. It focuses on practical integration between open-source tools (OpenCode, LM Studio) and hardware optimization (GPU/RAM management), reflecting the shift toward **edge AI** and **data sovereignty** in enterprise and developer workflows. The emphasis on context length (65K) highlights the importance of long-context capabilities for code generation and analysis tasks.
+
+**Channel Perspective vs. Other AI Channels:**  
+The "Prompt Engineer" channel is **developer-centric**, prioritizing hands-on tutorials for connecting local LLMs with coding tools. Unlike academic channels (e.g., "Two Minute Papers") that explore theoretical breakthroughs, or general AI news channels (e.g., "AI Explained") that cover industry trends, this channel provides **step-by-step implementation guides** for specific use cases (e.g., connecting OpenCode to LM Studio). It assumes viewers have basic familiarity with CLI tools and hardware constraints, making it ideal for practitioners seeking reproducible local setups rather than conceptual overviews.
