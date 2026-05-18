@@ -1,0 +1,13 @@
+### Part 1: Markdown Table
+
+| **Speaker** | **Primary Topics** | **Unique Insights** |
+|-------------|-------------------|---------------------|
+| Alex (host) | Supervised Fine-tuning, Sparse Autoencoders, Safety Alignment, Mechanistic Interpretability | 1. Fine-tuning causes massive semantic rewrites in sparse latents (e.g., similarity drops to ~0.56 by layer 22) despite raw activations staying >96% similar, creating an "illusion of stability."<br>2. Safety alignment uniquely concentrates updates in early layers (layer 7), unlike other tasks (e.g., math, tool calling) that rewrite deeper layers, suggesting a fundamentally different mechanism. |
+
+### Part 2: Channel Context
+
+**Relation to Broader LLM Themes:**  
+This content addresses a core tension in LLM development: the disconnect between surface-level model stability and deep functional changes during fine-tuning. It highlights how mechanistic interpretability tools (sparse autoencoders) can reveal hidden dynamics, particularly for safety alignment—a critical theme as AI safety research grows. The paper’s focus on task-specific rewrites (e.g., safety vs. reasoning) connects to broader debates about alignment tax and the need for specialized fine-tuning strategies.
+
+**Channel Perspective vs. Other AI Channels:**  
+"AI Research Roundup" adopts a **developer- and practitioner-focused lens**, breaking down recent papers into actionable insights (e.g., code availability, layer-specific effects). Unlike academic channels (e.g., "Two Minute Papers") that emphasize theoretical novelty, or hype-driven channels (e.g., "AI Explained") that focus on applications, this channel prioritizes mechanistic details and empirical tables, making it ideal for engineers and researchers seeking to understand model internals. Its concise, table-driven analysis contrasts with more narrative-heavy or philosophical AI channels.
