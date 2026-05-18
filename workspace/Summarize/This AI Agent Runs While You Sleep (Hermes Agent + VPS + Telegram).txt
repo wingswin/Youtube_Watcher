@@ -1,0 +1,13 @@
+### Part 1: Summary Table
+
+| **Speaker** | **Primary Topics** | **Unique Insights** |
+|-------------|--------------------|----------------------|
+| Prompt Engineer (channel host) | Hermes Agent (autonomous AI agent), VPS deployment, Telegram integration, Agentic workflows, Skill-based automation, Cron scheduling, Multi-platform support (Telegram, Discord, Slack, WhatsApp, Signal, CLI) | 1. Hermes Agent is a "self-improving AI agent" with a closed learning loop—it remembers user preferences and updates `.md` files automatically. 2. It can autonomously fix its own configuration issues (e.g., connecting to Telegram) and create complex outputs like HTML presentations or Manim animations using skills. |
+
+### Part 2: Channel Context
+
+**Relation to Broader LLM Themes:**  
+This video focuses on **practical deployment and autonomous agentic workflows**, emphasizing how LLMs can be used as persistent, self-improving assistants that operate on remote servers (VPS) rather than local machines. It highlights themes like **tool use, memory, skill creation, and multi-platform integration**, moving beyond simple chatbots or coding copilots. The channel positions Hermes Agent as a more advanced alternative to frameworks like LangChain or Crew AI, stressing its ability to "grow with the user" through continuous learning and automation.
+
+**Channel Perspective vs. Other AI Channels:**  
+The **Prompt Engineer** channel is **developer- and practitioner-focused**, with a strong emphasis on hands-on tutorials, deployment, and real-world use cases. Unlike academic channels that explore theoretical LLM capabilities or research papers, this channel provides step-by-step guides for setting up and using specific tools (e.g., Hermes Agent, VPS hosting). It also has a **commercial slant**, promoting services like Hostinger and OpenRouter, which is common among AI tutorial channels that blend education with affiliate marketing. Compared to channels like *Two Minute Papers* (academic) or *AI Explained* (news/analysis), this channel is more about **actionable implementation** for developers and hobbyists.

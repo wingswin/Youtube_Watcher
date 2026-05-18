@@ -1,0 +1,13 @@
+### Part 1: Comparative Landscape Table
+
+| Speaker | Primary Topics | Unique Insights |
+|---------|----------------|-----------------|
+| AI Coding Daily (host) | Code review automation, LLM-powered code analysis, RAG-like project sharding, Agentic workflows | 1. Claude Patch uses a "divide and conquer" approach, sharding projects into features (e.g., 43 features in a small Laravel project) for targeted, token-efficient reviews. 2. It generates actionable, human-readable reports with specific code recommendations and confidence levels, unlike generic review tools. |
+
+### Part 2: Channel Context
+
+**Relation to Broader LLM Themes:**  
+This video focuses on practical LLM applications for software development, specifically automated code review using Claude Patch. It demonstrates how LLMs can be used for agentic workflows (e.g., analyzing codebases, generating reports) and highlights efficiency gains through project sharding—a technique akin to RAG (Retrieval-Augmented Generation) where context is segmented for better performance. The content aligns with trends in AI-assisted development, such as reducing token usage and improving review accuracy.
+
+**Channel Perspective vs. Other AI Channels:**  
+AI Coding Daily is a **developer-focused channel** that emphasizes hands-on, tool-based demonstrations (e.g., Claude Patch, Codex CLI) for practical coding tasks. Unlike academic channels (e.g., Two Minute Papers) that explore theoretical AI breakthroughs, or general AI news channels (e.g., AI Explained) that cover broad trends, this channel provides step-by-step tutorials and comparisons of specific tools. Its perspective is pragmatic, targeting developers seeking immediate productivity gains, similar to channels like Fireship or TechWithTim, but with a narrower focus on LLM-powered coding tools.

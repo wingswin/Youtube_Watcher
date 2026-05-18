@@ -1,0 +1,13 @@
+### Part 1: Summary Table
+
+| **Speaker** | **Primary Topics** | **Unique Insights** |
+|-------------|-------------------|---------------------|
+| Alex (host) | Evidence Attribution, Document Intelligence, Benchmarking, RAG, Multimodal Parsing | 1. The paper introduces "strict attributed accuracy," requiring both correct answer and precise bounding box citation; models scoring zero if evidence is wrong. 2. Open-source models achieve only ~23% on this metric, while top proprietary models (e.g., Gemini 3.1 Pro Preview) reach 76%, highlighting a massive reliability gap. |
+
+### Part 2: Channel Context
+
+**Relation to Broader LLM Themes:**  
+This content directly addresses a critical gap in LLM evaluation—**evidence attribution**—which is essential for trustworthy deployment in high-stakes domains like medicine and law. It connects to themes of **RAG** (retrieval-augmented generation) by emphasizing the need for verifiable reasoning and precise citation, and to **multimodal AI** by testing models on non-textual evidence (tables, images, equations). The benchmark reveals that current LLMs often produce correct answers but rely on irrelevant text, a form of "attribution hallucination" that undermines reliability.
+
+**Channel Perspective vs. Other AI Channels:**  
+The channel, "AI Research Roundup," is **developer- and practitioner-focused**, prioritizing actionable insights from recent papers (e.g., code on GitHub, benchmark comparisons). Unlike academic channels that delve into theoretical foundations or mathematical proofs, this channel emphasizes practical implications and performance gaps (e.g., open-source vs. proprietary models). It aligns with applied AI channels like "Two Minute Papers" or "Yannic Kilcher" but is more concise and benchmark-oriented, similar to "AI Explained" but with a stronger emphasis on evaluation rigor and real-world deployment challenges.
