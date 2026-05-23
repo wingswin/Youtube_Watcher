@@ -1,0 +1,13 @@
+### Part 1: Comparative Landscape Table
+
+| Speaker | Primary Topics | Unique Insights |
+|---------|----------------|-----------------|
+| AI Coding Daily (host) | Implementation Notes, AI Agent Decision Transparency, Claude Code vs. Codex CLI, Usage Cost Analysis | 1. Implementation notes reveal hidden model decisions (e.g., status transitions, refund logic) that spec didn't specify. 2. High-effort Opus generates deeper notes (104 lines vs. 67) but costs more usage (12% vs. 8%). 3. Codex uses fewer tokens than Opus for same prompt but provides less detailed notes (no deviations listed). |
+
+### Part 2: Channel Context
+
+**Broader LLM Themes:**  
+This video addresses a practical gap in AI-assisted coding: the "black box" problem where LLMs make design decisions without user consultation. It explores how implementation notes can serve as a lightweight alternative to full "plan mode," improving transparency and catching prompt incompleteness. The comparison between Claude Code (Opus) and Codex (GPT) highlights trade-offs in detail vs. cost efficiency, a recurring theme in LLM tooling debates.
+
+**Channel Perspective:**  
+AI Coding Daily is a **developer-focused, hands-on experimentation channel** that prioritizes practical workflow optimizations over theoretical discussions. Unlike academic channels (e.g., Two Minute Papers) that analyze model architectures, or general AI news channels (e.g., AI Explained) that cover industry trends, this channel provides **actionable, code-level comparisons** of LLM agents (Claude Code, Codex CLI) with real usage metrics. Its perspective aligns with other developer-oriented channels (e.g., Fireship, Web Dev Simplified) but specializes in AI coding tooling, making it a niche resource for engineers seeking to maximize LLM productivity in production environments.

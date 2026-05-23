@@ -1,0 +1,13 @@
+### Part 1: Comparative Landscape Table
+
+| **Speaker** | **Primary Topics** | **Unique Insights** |
+|-------------|-------------------|---------------------|
+| Narrator (KodeKloud) | Agentic Workflows, Tool Calling, Context Engineering, Agent Harness | 1. Tool calling is identified as the key game-changer that transformed LLMs from chatbots into agents, enabling external action. 2. The evolution from prompt engineering → context engineering → agent harness is mapped, with context window size directly linked to task duration and success rates. |
+
+### Part 2: Channel Context
+
+**Relation to Broader LLM Themes:**  
+This video provides a historical and conceptual overview of the shift from rigid, workflow-based automation to agentic LLM systems. It emphasizes the practical evolution of agent design (prompt → context → harness) and ties it to concrete examples like Cursor, Lovable, and Perplexity. The content aligns with the broader industry trend of moving beyond simple RAG or fine-tuning toward autonomous, tool-using agents.
+
+**Channel Perspective vs. Other AI Channels:**  
+KodeKloud is a **developer-focused, hands-on learning platform** (primarily known for DevOps and cloud training). Compared to academic channels (e.g., Yannic Kilcher, Stanford MLSys) that emphasize theory and research papers, KodeKloud’s perspective is more **pragmatic and applied**—it explains concepts through real-world use cases and historical progression rather than mathematical depth. Compared to other developer channels (e.g., Fireship, Two Minute Papers), KodeKloud offers a **more structured, tutorial-style breakdown** suitable for practitioners looking to understand the "why" behind agent architecture changes.

@@ -1,0 +1,13 @@
+### Part 1: Summary Table
+
+| **Speaker** | **Primary Topics** | **Unique Insights** |
+|-------------|-------------------|---------------------|
+| Alex (host) | LLM training optimization, memory bottlenecks, kernel fusion, transformer architecture | 1. The paper "KOD" fuses memory-bound operations (e.g., normalization, embeddings) into matrix multiplication epilogues to avoid slow global memory transfers. 2. Using FP8 math formats increases the relative overhead of memory-bound tasks (from 17% to 28%), making fusion even more critical. |
+
+### Part 2: Channel Context
+
+**Relation to Broader LLM Themes:**  
+This content addresses a core challenge in scaling LLMs: the growing gap between compute speed (accelerated by formats like FP8) and memory bandwidth. By fusing operations into the GPU's on-chip memory, the KOD approach aligns with industry trends toward hardware-software co-design (e.g., NVIDIA's CUDA optimizations, FlashAttention). It directly tackles the "memory wall" problem that limits training efficiency for large models like LLaMA-3.
+
+**Channel Perspective vs. Other AI Channels:**  
+"AI Research Roundup" is **developer- and practitioner-focused**, emphasizing actionable optimizations for training pipelines. Unlike academic channels (e.g., "Two Minute Papers") that explain theory, or hype-driven channels (e.g., "AI Explained") that focus on model capabilities, this channel dissects low-level implementation details (kernel fusion, GPU memory hierarchy). It bridges the gap between research papers and practical engineering, similar to "The AI Scientist" but with a stronger emphasis on hardware-aware optimization.
